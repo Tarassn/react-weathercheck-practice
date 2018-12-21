@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Tarassn/react-weathercheck-practice/precache-manifest.ddd0f103f6cb380fc8aff954b0c9900d.js"
+  "/react-weathercheck-practice/precache-manifest.34fa43b25227f17a51d35874e17433b8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Tarassn/react-weathercheck-practice/index.html", {
+workbox.routing.registerNavigationRoute("/react-weathercheck-practice/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
